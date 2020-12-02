@@ -1,5 +1,5 @@
-# hello-world
 const Discord = require('discord.js');
+require('dotenv').config();
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -12,4 +12,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('NzU3OTg4MzU0OTc2NTE0MDY4.X2oZqg.C11KJipAeQ185ERWMDMJa12TuT4');
+client.login(NzU3OTg4MzU0OTc2NTE0MDY4.X2oZqg.C11KJipAeQ185ERWMDMJa12TuT4);
